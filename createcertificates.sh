@@ -80,7 +80,7 @@ else
 
         for index in "${!array[@]}"
         do
-                [[ "${array[index]}" = "C" ]] && countryname="${array[index + 1]}" &&  echo "Country name: " $countryname
+                [[ "${array[index]}" = "C" ]] && countryname="${array[index + 1]}" && echo "Country name: " $countryname
                 [[ "${array[index]}" = "ST" ]] && state="${array[index + 1]}" && echo "State: " $state
                 [[ "${array[index]}" = "L" ]] && city="${array[index + 1]}" && echo "City: " $city
                 [[ "${array[index]}" = "O" ]] && organizaton="${array[index + 1]}" && echo "Organization: " $organization
