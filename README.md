@@ -12,5 +12,13 @@ The script is free to use, reuse, copy, change, redistribute as you see fit, tot
 
 Corrections and comments are also welcome.
 
+To run the script, in your Linux instace, download to a folder with:
+
+`wget https://github.com/danluckner/create-certificates-mtls/blob/main/createcertificates.sh`
+
+Then, in the same folder, run the script with:
+
+`sudo bash ./createcertificates.sh`
+
 ## References
 The inspiration for this script came from the this video: https://www.youtube.com/watch?v=8DWcMbgQSZg
