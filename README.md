@@ -14,7 +14,7 @@ Corrections and comments are also welcome.
 
 To run the script, in your Linux instace, download to a folder with:
 
-`wget https://github.com/danluckner/create-certificates-mtls/blob/main/createcertificates.sh`
+`wget https://raw.githubusercontent.com/danluckner/create-certificates-mtls/refs/heads/main/createcertificates.sh`
 
 Then, in the same folder, run the script with:
 
