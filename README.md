@@ -21,4 +21,4 @@ Then, in the same folder, run the script with:
 `sudo bash ./createcertificates.sh`
 
 ## References
-The inspiration for this script came from the this video: https://www.youtube.com/watch?v=8DWcMbgQSZg
+The inspiration for this script came from this video: https://www.youtube.com/watch?v=8DWcMbgQSZg
