@@ -50,8 +50,8 @@ if [[ ! -f $serverfilename.key ]]; then
         city=${city:-}
 
         #Organization Name
-        read -p "Organization  Name (eg, company) [Self-Hosted ACME]: " organization
-        organization=${organization:-Self-Hostead ACME}
+        read -p "Organization  Name (eg, company) [Self-HostedACME]: " organization
+        organization=${organization:-Self-HosteadACME}
 
         #Organization Unit
         read -p "Organizational Unit Name (eg, section) []: " orgunit
@@ -96,7 +96,6 @@ read -p "Type the client certificate filename [client]: " clientfilename
 clientfilename=${clientfilename:-client}
 
 if [[ ! -f $clientfilename.key ]]; then
-
         #Password
         while true; do
                 read -s -p "Create password for the client certificate []: " password
