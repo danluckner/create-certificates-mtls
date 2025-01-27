@@ -116,7 +116,7 @@ if [[ ! -f $clientfilename.key ]]; then
         expirationclient=${expirationclient:-365}
 
         #Serial
-        read -p "Was is the number of certificate [01]: " serial
+        read -p "What is the number of certificate. Please take the previous client certificates issue into accout [01]: " serial
         serial=${serial:-01}
 
         openssl ecparam -genkey -name prime256v1 | openssl ec -out $clientfilename.key
